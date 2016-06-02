@@ -15,7 +15,6 @@ struct wezel
 	wezel *p_potomek;
 };
 
-
 int **utworzenie_macierzy(int rozmiar1, int rozmiar2)//tworzy tablice dwuwymiarowa
 {
 	int **tab = nullptr;
@@ -44,6 +43,7 @@ int **utworzenie_macierzy(int rozmiar1, int rozmiar2)//tworzy tablice dwuwymiaro
 	}
 	return tab;
 }
+
 int *utworzenie_tablicy(int rozmiar)//tworzy tablice
 {
 	try
